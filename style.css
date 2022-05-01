@@ -1,8 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0px;
 
 }
+.cinza {
+    background-color: rgb(0, 0, 0);
+}
 #titulo{
+    font-family:'Montserrat', sans-serif;
     text-align: center;
-    color: darkviolet;
+    color: rgb(140, 42, 231);;
+    background-color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding: 30px 8px 30px 0px;
+
+}
+
+.menu{
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(140, 42, 231);;
+    background-color:rgb(61, 58, 58);
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+
+#categorias{
+    font-family:'Montserrat', sans-serif;;
+    margin-left: 320px;
+    
+}
+
+.filmes_categorias{
+    width: 170px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.categorias_capas{
+    text-align: center;
+    background-color:rgb(61, 58, 58);
+    font-weight: 600;
+}
+
+.subtitulo{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(158, 93, 219);
+    font-weight: 600;
+    margin: 30px 0px 30px 0px;
+}
+.mais_vistos{
+    width: 145px;
+    height: 210px;
+    margin: 20px 0px 10px 0.7px;
+
+}
+.rodape{
+    text-align: center;
+    font-family:'Montserrat', sans-serif ;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
